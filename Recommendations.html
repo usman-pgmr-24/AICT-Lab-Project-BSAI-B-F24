@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendations | Voyager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Logos/logo.ico" type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Recommendations.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway:500" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav style="background: none; margin-bottom: 50px;">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo black-text" style="margin-left: 8vh; font-family: Montserrat; font-size: 35px;">VOYAGER</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" class="black-text" style="font-family: Montserrat; outline: none; font-size: 20px">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3>Our Recommendations</h3>
+
+        <h5>5 Breathtaking Destinations in Pakistan</h5>
+
+        <div class="col s12 m5">
+            <h2 class="header" style="font-size: 30px;">1. Hunza Valley</h2>
+            <div class="card horizontal hoverable">
+                <div class="card-image">
+                    <img src="https://i.ibb.co/VBpVMQV/Hunza-Valley.jpg" style="width: 223px; height: 226px;">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p><i><b>The Gem of Gilgit-Baltistan</b></i></p><br>
+                        <p>Known for its breathtaking landscapes, Hunza Valley is a paradise for nature lovers. Surrounded by snow-capped mountains, lush greenery, and serene rivers, this valley offers unparalleled beauty and tranquility. Don't miss the Attabad Lake and Baltit Fort when visiting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m5">
+            <h2 class="header" style="font-size: 30px;">2. Skardu</h2>
+            <div class="card horizontal hoverable">
+                <div class="card-image">
+                    <img src="https://i.ibb.co/Lth78mv/Skardu.jpg" style="width: 223px; height: 226px;">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p><i><b>The Gateway to Mighty Karakoram</b></i></p><br>
+                        <p>Skardu is a haven for adventure enthusiasts and trekkers. Home to the mesmerizing Shangrila Resort, Deosai Plains, and Sheosar Lake, this destination also serves as a base for expeditions to the world's highest peaks, including K2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m5">
+            <h2 class="header" style="font-size: 30px;">3. Swat Valley</h2>
+            <div class="card horizontal hoverable">
+                <div class="card-image">
+                    <img src="https://i.ibb.co/2t2Kg4T/Lahore.jpg" style="width: 223px; height: 226px;">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p><i><b>Switzerland of the East</b></i></p><br>
+                        <p>Swat Valley is renowned for its stunning scenery, pristine rivers, and lush alpine forests. Highlights include Malam Jabba for skiing and Mingora for its cultural heritage. The valley is especially magical during spring when the orchards are in full bloom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m5">
+            <h2 class="header" style="font-size: 30px;">4. Lahore</h2>
+            <div class="card horizontal hoverable">
+                <div class="card-image">
+                    <img src="https://i.ibb.co/12d2M01/Swat-Valley.jpg" style="width: 223px; height: 226px;">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p><i><b>The Heart of Pakistan</b></i></p><br>
+                        <p>Lahore, the cultural hub of Pakistan, is rich in history and architecture. Explore the majestic Lahore Fort, Badshahi Mosque, and Shalimar Gardens. Don't forget to savor Lahore's world-famous cuisine and vibrant bazaars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m5">
+            <h2 class="header" style="font-size: 30px;">5. Fairy Meadows</h2>
+            <div class="card horizontal hoverable">
+                <div class="card-image">
+                    <img src="https://i.ibb.co/RBZHkBf/Fairy-Meadows.jpg" style="width: 223px; height: 226px;">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p><i><b>A Gateway to Nanga Parbat</b></i></p><br>
+                        <p>Fairy Meadows is a dreamlike destination, offering a spectacular view of Nanga Parbat, the ninth-highest mountain in the world. Its lush green meadows and serene ambiance make it a perfect spot for camping and star-gazing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <footer class="section teal darken-3" >
+        <p class="flow-text white-text center" style="font-family: Montserrat; font-size: 35px;" >VOYAGER &copy; 2024</p>        
+    </footer>      
+
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+</body>
+
+</html>
